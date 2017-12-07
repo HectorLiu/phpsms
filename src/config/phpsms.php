@@ -201,5 +201,20 @@ return [
             'signName'          => 'your_sms_sign_name',
             'regionId'          => 'cn-shenzhen',
         ],
+        /*
+        * -----------------------------------
+        * Aliyun_MNS
+        * 阿里云(消息服务)
+        * -----------------------------------
+        * website:https://www.aliyun.com/product/mns
+        * support template sms.
+        */
+        'Aliyun_MNS' => [
+            'accessKeyId'       => 'your_access_key_id',
+            'accessKeySecret'   => 'your_access_key_secret',
+            'signName'          => 'your_sms_sign_name',
+            'endPoint'          => 'your_sms_end_point',
+            'topicName'         =>'your_sms_topic_name',
+        ],
     ],
 ];
